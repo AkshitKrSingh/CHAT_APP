@@ -1,0 +1,23 @@
+@keyframes shimmer {
+  0% {
+    background-color: #1c2030;
+  }
+  50% {
+    background-color: #2a2f45;
+  }
+  100% {
+    background-color: #1c2030;
+  }
+}
+
+.shimmer {
+  animation: shimmer 2s infinite ease-in-out;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
